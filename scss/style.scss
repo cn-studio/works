@@ -1368,36 +1368,6 @@ footer{
         line-height: 24px;
     }
 }
-//更新中視窗
-.updateing{
-    @include fixed(0, 0, 0, 0, auto);
-    background-color: rgba(245, 245, 245, 0.8);
-    z-index: 9999;
-    display: none;
-    .updateing-alert{
-        @include fixed(0, 0, 0, 0, auto);
-        height: 200px;
-        width: 250px;
-        background-color: $white;
-        box-shadow: 0px 0px 10px $light-gray;
-        border-radius: 10px;
-        p{
-            @include m-t(60px);
-            font-size: 16px;
-            line-height: 24px;
-            letter-spacing: 1px;
-            text-align: center;
-        }
-        span{
-            @include m-t(24px);
-            color: $gray;
-            font-size: 14px;
-            letter-spacing: 1px;
-            display: block;
-            text-align: center;
-        }
-    }
-}
 //寬度1440以下
 @include desktop-m{
     .title{
