@@ -2007,7 +2007,7 @@ footer{
         .works-list:first-child{
             .works-list-img{
                 .works-list-img-area{
-                    div:nth-child(2){
+                    > div:nth-child(2){
                         display: none;
                     }
                 }
