@@ -1,0 +1,63 @@
+*{
+	font-family: 'Noto Sans TC', 'Microsoft JhengHei', 'Arial', 'Helvetica', 'sans-serif';
+}
+
+@mixin ch-title-l($size) {
+    font-size: $size;
+    letter-spacing: $size*0.25;
+    white-space: nowrap;
+}
+
+@mixin ch-title-m($size) {
+    font-size: $size;
+    line-height: $size*1.4;
+    letter-spacing: $size*0.05;
+}
+
+@mixin en-title-l($size) {
+    font-size: $size;
+    letter-spacing: $size*0.1;
+    white-space: nowrap;
+}
+
+@mixin en-title-m($size) {
+    font-size: $size;
+    line-height: $size*1.2;
+    letter-spacing: $size*0.05;   
+}
+
+@mixin ch-text-l($size) {
+    font-size: $size; 
+    letter-spacing: $size*0.15;
+    line-height: $size*2; 
+}
+
+@mixin en-text-l($size) {
+    font-size: $size; 
+    letter-spacing: $size*0.01;
+    line-height: $size*1.5; 
+}
+
+@mixin ch-text-m($size) {
+    font-size: $size; 
+    letter-spacing: $size*0.05;
+    line-height: $size*1.5; 
+}
+
+@mixin en-text-m($size) {
+    font-size: $size; 
+    letter-spacing: $size*0.01;
+    line-height: $size*1.5; 
+}
+
+@mixin ch-others-text($size){
+    font-size: $size;
+    letter-spacing: $size*0.25;
+    line-height: $size*2;    
+}
+
+@mixin en-others-text($size){
+    font-size: $size;
+    letter-spacing: $size*0.1;
+    line-height: $size*2;    
+}
