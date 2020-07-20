@@ -302,18 +302,13 @@ $arrow-size: 30px;
                 @include m-y(2.5%, 2.5%);
                 height: 100%;
                 width: 100%;
-                background-color: $white*0.95;
                 position: relative;
-                background-position: center center;
-                background-size: contain;
-                background-repeat: no-repeat;
-                transition: background 0.25s linear;
                 //作品列表圖
                 .works-list-img-area-work{
                     @include absolute(0, 0, 0, 0, auto);
                     height: 100%;
                     width: 100%;
-                    background-color: $white*0.95;
+                    background-color: $white-gray;
                     background-position: center center;
                     background-size: contain;
                     background-repeat: no-repeat;
@@ -321,73 +316,73 @@ $arrow-size: 30px;
                 }
                 //大學五書
                 .bookset-color{
-                    background-image: url(../image/bookset-color-l.png);
+                    background-image: url(../image/bookset-color.jpg);
                 }
                 .bookset-gray{
-                    background-image: url(../image/bookset-gray-l.png);
+                    background-image: url(../image/bookset-gray.jpg);
                 }
                 //董小蕙的藝術
                 .artistweb-color{
-                    background-image: url(../image/artistweb-color-l.png);
+                    background-image: url(../image/artistweb-color.jpg);
                 }
                 .artistweb-gray{
-                    background-image: url(../image/artistweb-gray-l.png);
+                    background-image: url(../image/artistweb-gray.jpg);
                 }
                 //重建斯文
                 .rebuild-color{
-                    background-image: url(../image/rebuild-color-l.png);
+                    background-image: url(../image/rebuild-color.jpg);
                 }
                 .rebuild-gray{
-                    background-image: url(../image/rebuild-gray-l.png);
+                    background-image: url(../image/rebuild-gray.jpg);
                 }
                 //華藝學出部
                 .airitiweb-color{
-                    background-image: url(../image/airitiweb-color-l.png);
+                    background-image: url(../image/airitiweb-color.jpg);
                 }
                 .airitiweb-gray{
-                    background-image: url(../image/airitiweb-gray-l.png);
+                    background-image: url(../image/airitiweb-gray.jpg);
                 }
                 //產品DM
                 .productdm-color{
-                    background-image: url(../image/productdm-color-l.png);
+                    background-image: url(../image/productdm-color.jpg);
                 }
                 .productdm-gray{
-                    background-image: url(../image/productdm-gray-l.png);
+                    background-image: url(../image/productdm-gray.jpg);
                 }
                 //全民瘋路跑
                 .crazyrunningweb-color{
-                    background-image: url(../image/crazyrunningweb-color-l.png);
+                    background-image: url(../image/crazyrunningweb-color.jpg);
                 }
                 .crazyrunningweb-gray{
-                    background-image: url(../image/crazyrunningweb-gray-l.png);
+                    background-image: url(../image/crazyrunningweb-gray.jpg);
                 }
                 //產品手冊
                 .handbook-color{
-                    background-image: url(../image/handbook-color-l.png);
+                    background-image: url(../image/handbook-color.jpg);
                 }
                 .handbook-gray{
-                    background-image: url(../image/handbook-gray-l.png);
+                    background-image: url(../image/handbook-gray.jpg);
                 }
                 //譯介的話語
                 .translation-color{
-                    background-image: url(../image/translation-color-l.png);
+                    background-image: url(../image/translation-color.jpg);
                 }
                 .translation-gray{
-                    background-image: url(../image/translation-gray-l.png);
+                    background-image: url(../image/translation-gray.jpg);
                 }
                 //活動主視覺
                 .eventvision-color{
-                    background-image: url(../image/eventvision-color-l.png);
+                    background-image: url(../image/eventvision-color.jpg);
                 }
                 .eventvision-gray{
-                    background-image: url(../image/eventvision-gray-l.png);
+                    background-image: url(../image/eventvision-gray.jpg);
                 }
                 //活動主視覺
                 .update-color{
-                    background-image: url(../image/update-color-l.png);
+                    background-image: url(../image/update-color.jpg);
                 }
                 .update-gray{
-                    background-image: url(../image/update-gray-l.png);
+                    background-image: url(../image/update-gray.jpg);
                 }
                 //作品類型標籤
                 .works-list-img-area-tag{
@@ -477,9 +472,6 @@ $arrow-size: 30px;
         @include m-r(2.5%);
     }
     //作品標籤互動效果
-    .works-list:hover .works-list-img-area{
-        background-color: $white*0.9;
-    }
     .works-list:hover .works-list-img .works-list-img-area-tag-more p{
         color: $white;
     }
@@ -1928,82 +1920,6 @@ footer{
         }
     }
     .works{
-        .works-list{
-            .works-list-img{
-                .works-list-img-area{
-                    //大學五書
-                    .bookset-color{
-                        background-image: url(../image/bookset-color-m.jpg);
-                    }
-                    .bookset-gray{
-                        background-image: url(../image/bookset-gray-m.jpg);
-                    }
-                    //董小蕙的藝術
-                    .artistweb-color{
-                        background-image: url(../image/artistweb-color-m.jpg);
-                    }
-                    .artistweb-gray{
-                        background-image: url(../image/artistweb-gray-m.jpg);
-                    }
-                    //重建斯文
-                    .rebuild-color{
-                        background-image: url(../image/rebuild-color-m.jpg);
-                    }
-                    .rebuild-gray{
-                        background-image: url(../image/rebuild-gray-m.jpg);
-                    }
-                    //華藝學出部
-                    .airitiweb-color{
-                        background-image: url(../image/airitiweb-color-m.jpg);
-                    }
-                    .airitiweb-gray{
-                        background-image: url(../image/airitiweb-gray-m.jpg);
-                    }
-                    //產品DM
-                    .productdm-color{
-                        background-image: url(../image/productdm-color-m.jpg);
-                    }
-                    .productdm-gray{
-                        background-image: url(../image/productdm-gray-m.jpg);
-                    }
-                    //全民瘋路跑
-                    .crazyrunningweb-color{
-                        background-image: url(../image/crazyrunningweb-color-m.jpg);
-                    }
-                    .crazyrunningweb-gray{
-                        background-image: url(../image/crazyrunningweb-gray-m.jpg);
-                    }
-                    //產品手冊
-                    .handbook-color{
-                        background-image: url(../image/handbook-color-m.jpg);
-                    }
-                    .handbook-gray{
-                        background-image: url(../image/handbook-gray-m.jpg);
-                    }
-                    //譯介的話語
-                    .translation-color{
-                        background-image: url(../image/translation-color-m.jpg);
-                    }
-                    .translation-gray{
-                        background-image: url(../image/translation-gray-m.jpg);
-                    }
-                    //活動主視覺
-                    .eventvision-color{
-                        background-image: url(../image/eventvision-color-m.jpg);
-                    }
-                    .eventvision-gray{
-                        background-image: url(../image/eventvision-gray-m.jpg);
-                    }
-                    //活動主視覺
-                    .update-color{
-                        background-image: url(../image/update-color-m.jpg);
-                    }
-                    .update-gray{
-                        background-image: url(../image/update-gray-m.jpg);
-                    }
-                }
-            }
-        }
         .works-list:first-child{
             .works-list-img{
                 .works-list-img-area{
