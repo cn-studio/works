@@ -1143,6 +1143,7 @@ $expertise-time:2.5s;
             }
             a{
                 @include m-x(auto, auto);
+                @include m-y(5%, 2.5%);
                 @include p-x(5px, 5px);
                 @include p-y(5px, 5px);
                 width: 125px;
@@ -2546,6 +2547,19 @@ footer{
                 color: $white;
                 border-color: $blue;
                 box-shadow: none;
+            }
+        }
+    }
+    .works-content{
+        .works-content-area{
+            p{
+                span:nth-child(2){
+                    @include p-t(7.5%);
+                }
+                a{
+                    @include m-y(7.5%, 7.5%);
+                    width: auto;
+                }
             }
         }
     }
