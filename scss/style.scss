@@ -1963,7 +1963,9 @@ footer{
                 @include p-b(7.5%);
                 line-height: 24px;
                 a{
-                    @include p-y(15px, 15px);
+                    @include p-y(10px, 10px);
+                    width: 100%;
+                    border-radius: 5px;
                 }
             }
         }
