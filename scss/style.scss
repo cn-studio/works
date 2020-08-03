@@ -1100,7 +1100,6 @@ $expertise-time:2.5s;
         img{
             @include m-b(10%);
             width: 100%;
-            background-color: $light-gray;
         }
         img:first-child{
             @include m-t(0);
