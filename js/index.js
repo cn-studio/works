@@ -4,7 +4,7 @@ $(document).ready(function () {
     //首頁淡入轉場
     $('.fade-out-area').delay(500).fadeOut(1000);
     //首頁畫面高100%
-    $('.title').css({ 'height': ScreenHeight, 'margin-bottom': HeaderHeight });
+    $('.title').css({ 'height': ScreenHeight});
     $(window).resize(function () {
         var ScreenHeight = document.body.clientHeight;
         $('.title').css({ 'height': ScreenHeight });

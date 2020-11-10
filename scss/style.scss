@@ -160,11 +160,6 @@ header{
     z-index: 1;
     overflow:hidden;
     position: relative;
-        img{
-        @include absolute(0, 0, 0, 0, auto);
-        width:100%;
-        transition: 0.1s linear;
-    }
     //The Show
     .title-area {
         text-align: center;
@@ -222,30 +217,18 @@ header{
             animation: title-other-line 1.5s 1s linear forwards;
         }
     }
-    //向下移動按鈕
-    .mouse{
-        @include fixed(none, 0, 7.5%, 0, auto);
-        height: 40px;
-        width: 25px;
-        border: 2px solid $black;
-        border-radius: 20px;
-        transition: 0.5s linear;
-        visibility: visible;
-        z-index: 99999;
-        cursor: pointer;
-        &:after{
-            @include absolute(5px, 0, none, 0, auto);
-            content: "";
-            height: 8px;
-            width: 2px;
-            border-radius: 2px;
-            background-color: $black;
-            animation: scrollmove 1s linear infinite;
+    .title-codepen{
+            @include absolute(none, 10%, 5%, none, auto);
+        a{
+            font-size: 24px;
+            white-space: nowrap;
+            font-family: 'Racing Sans One', cursive;
         }
-        @keyframes scrollmove{
-            0%{transform: translateY(0)}
-            100%{transform: translateY(8px)}
-        }
+    }
+    video{
+        @include absolute(0, 0, 0, 0, auto);
+        height: 110%;
+        z-index: -99;
     }
 }
 //標題動畫-桌機
@@ -2342,6 +2325,10 @@ footer{
                 &:after{
                     height: 6px;
                 }
+        }
+        video{
+            height: 100vh;
+            width: auto;
         }
     }
     $tag-size: 100px;
