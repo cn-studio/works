@@ -219,7 +219,7 @@ header{
     }
     video{
         @include absolute(0, 0, 0, 0, auto);
-        height: 110%;
+        height: 120%;
         z-index: -99;
     }
 }
