@@ -29,4 +29,8 @@ $(document).ready(function () {
             $('.works-list-img-area').eq(1).css({ 'margin-top': '12.5%' })
         }
     });
+    //取消持續更新中預設行為
+    $('.update-alert').click(function (e) { 
+        return false;
+    });
 });

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100;300;400;500;700;900&family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Sans+KR:wght@300;400;500;700;900&family=Noto+Sans+SC:wght@100;300;400;500;700;900&family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Comfortaa&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Questrial&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap");
@@ -333,10 +333,6 @@ blockquote, q {
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: #869791;
-}
-
-* {
-  font-family: 'Noto Sans TC', 'Microsoft JhengHei', 'Arial', 'Helvetica', 'sans-serif';
 }
 
 @-webkit-keyframes bounce {
@@ -4040,8 +4036,8 @@ blockquote, q {
 }
 
 * {
-  font-family: 'Noto Sans TC','Microsoft JhengHei', serif, sans-serif, cursive, fantasy, monospace;
-  color: #505050;
+  font-family: 'Noto Sans','Noto Sans HK','Noto Sans JP','Noto Sans KR','Noto Sans SC','Noto Sans TC','Microsoft JhengHei', serif, sans-serif, cursive, fantasy, monospace;
+  color: #191919;
 }
 
 ::-moz-selection {
@@ -4369,265 +4365,265 @@ header ul li:last-child {
 
 @-webkit-keyframes glitch-anim1 {
   0% {
-    clip: rect(13px, 9999px, 171px, 0);
+    clip: rect(53px, 9999px, 74px, 0);
   }
   5% {
-    clip: rect(18px, 9999px, 182px, 0);
+    clip: rect(29px, 9999px, 199px, 0);
   }
   10% {
-    clip: rect(43px, 9999px, 9px, 0);
+    clip: rect(2px, 9999px, 101px, 0);
   }
   15% {
-    clip: rect(72px, 9999px, 149px, 0);
+    clip: rect(5px, 9999px, 97px, 0);
   }
   20% {
-    clip: rect(86px, 9999px, 110px, 0);
+    clip: rect(35px, 9999px, 13px, 0);
   }
   25% {
-    clip: rect(24px, 9999px, 192px, 0);
+    clip: rect(10px, 9999px, 61px, 0);
   }
   30% {
-    clip: rect(8px, 9999px, 50px, 0);
+    clip: rect(21px, 9999px, 9px, 0);
   }
   35% {
-    clip: rect(84px, 9999px, 148px, 0);
+    clip: rect(16px, 9999px, 62px, 0);
   }
   40% {
-    clip: rect(99px, 9999px, 127px, 0);
+    clip: rect(3px, 9999px, 143px, 0);
   }
   45% {
-    clip: rect(89px, 9999px, 117px, 0);
+    clip: rect(83px, 9999px, 120px, 0);
   }
   50% {
-    clip: rect(65px, 9999px, 185px, 0);
+    clip: rect(88px, 9999px, 37px, 0);
   }
   55% {
-    clip: rect(73px, 9999px, 66px, 0);
+    clip: rect(29px, 9999px, 126px, 0);
   }
   60% {
-    clip: rect(14px, 9999px, 120px, 0);
+    clip: rect(22px, 9999px, 112px, 0);
   }
   65% {
-    clip: rect(58px, 9999px, 7px, 0);
+    clip: rect(57px, 9999px, 87px, 0);
   }
   70% {
-    clip: rect(73px, 9999px, 147px, 0);
+    clip: rect(10px, 9999px, 122px, 0);
   }
   75% {
-    clip: rect(22px, 9999px, 144px, 0);
+    clip: rect(75px, 9999px, 82px, 0);
   }
   80% {
-    clip: rect(71px, 9999px, 91px, 0);
+    clip: rect(80px, 9999px, 142px, 0);
   }
   85% {
-    clip: rect(17px, 9999px, 137px, 0);
+    clip: rect(43px, 9999px, 43px, 0);
   }
   90% {
-    clip: rect(4px, 9999px, 29px, 0);
+    clip: rect(41px, 9999px, 107px, 0);
   }
   95% {
-    clip: rect(21px, 9999px, 55px, 0);
+    clip: rect(36px, 9999px, 22px, 0);
   }
   100% {
-    clip: rect(57px, 9999px, 4px, 0);
+    clip: rect(100px, 9999px, 170px, 0);
   }
 }
 
 @keyframes glitch-anim1 {
   0% {
-    clip: rect(13px, 9999px, 171px, 0);
+    clip: rect(53px, 9999px, 74px, 0);
   }
   5% {
-    clip: rect(18px, 9999px, 182px, 0);
+    clip: rect(29px, 9999px, 199px, 0);
   }
   10% {
-    clip: rect(43px, 9999px, 9px, 0);
+    clip: rect(2px, 9999px, 101px, 0);
   }
   15% {
-    clip: rect(72px, 9999px, 149px, 0);
+    clip: rect(5px, 9999px, 97px, 0);
   }
   20% {
-    clip: rect(86px, 9999px, 110px, 0);
+    clip: rect(35px, 9999px, 13px, 0);
   }
   25% {
-    clip: rect(24px, 9999px, 192px, 0);
+    clip: rect(10px, 9999px, 61px, 0);
   }
   30% {
-    clip: rect(8px, 9999px, 50px, 0);
+    clip: rect(21px, 9999px, 9px, 0);
   }
   35% {
-    clip: rect(84px, 9999px, 148px, 0);
+    clip: rect(16px, 9999px, 62px, 0);
   }
   40% {
-    clip: rect(99px, 9999px, 127px, 0);
+    clip: rect(3px, 9999px, 143px, 0);
   }
   45% {
-    clip: rect(89px, 9999px, 117px, 0);
+    clip: rect(83px, 9999px, 120px, 0);
   }
   50% {
-    clip: rect(65px, 9999px, 185px, 0);
+    clip: rect(88px, 9999px, 37px, 0);
   }
   55% {
-    clip: rect(73px, 9999px, 66px, 0);
+    clip: rect(29px, 9999px, 126px, 0);
   }
   60% {
-    clip: rect(14px, 9999px, 120px, 0);
+    clip: rect(22px, 9999px, 112px, 0);
   }
   65% {
-    clip: rect(58px, 9999px, 7px, 0);
+    clip: rect(57px, 9999px, 87px, 0);
   }
   70% {
-    clip: rect(73px, 9999px, 147px, 0);
+    clip: rect(10px, 9999px, 122px, 0);
   }
   75% {
-    clip: rect(22px, 9999px, 144px, 0);
+    clip: rect(75px, 9999px, 82px, 0);
   }
   80% {
-    clip: rect(71px, 9999px, 91px, 0);
+    clip: rect(80px, 9999px, 142px, 0);
   }
   85% {
-    clip: rect(17px, 9999px, 137px, 0);
+    clip: rect(43px, 9999px, 43px, 0);
   }
   90% {
-    clip: rect(4px, 9999px, 29px, 0);
+    clip: rect(41px, 9999px, 107px, 0);
   }
   95% {
-    clip: rect(21px, 9999px, 55px, 0);
+    clip: rect(36px, 9999px, 22px, 0);
   }
   100% {
-    clip: rect(57px, 9999px, 4px, 0);
+    clip: rect(100px, 9999px, 170px, 0);
   }
 }
 
 @-webkit-keyframes glitch-anim2 {
   0% {
-    clip: rect(42px, 9999px, 56px, 0);
+    clip: rect(60px, 9999px, 126px, 0);
   }
   5% {
-    clip: rect(24px, 9999px, 101px, 0);
+    clip: rect(61px, 9999px, 76px, 0);
   }
   10% {
-    clip: rect(92px, 9999px, 79px, 0);
+    clip: rect(53px, 9999px, 177px, 0);
   }
   15% {
-    clip: rect(46px, 9999px, 162px, 0);
+    clip: rect(91px, 9999px, 137px, 0);
   }
   20% {
-    clip: rect(9px, 9999px, 172px, 0);
+    clip: rect(57px, 9999px, 2px, 0);
   }
   25% {
-    clip: rect(64px, 9999px, 44px, 0);
+    clip: rect(25px, 9999px, 38px, 0);
   }
   30% {
-    clip: rect(93px, 9999px, 28px, 0);
+    clip: rect(72px, 9999px, 59px, 0);
   }
   35% {
-    clip: rect(15px, 9999px, 130px, 0);
+    clip: rect(93px, 9999px, 44px, 0);
   }
   40% {
-    clip: rect(74px, 9999px, 46px, 0);
+    clip: rect(92px, 9999px, 115px, 0);
   }
   45% {
-    clip: rect(89px, 9999px, 109px, 0);
+    clip: rect(23px, 9999px, 123px, 0);
   }
   50% {
-    clip: rect(61px, 9999px, 13px, 0);
+    clip: rect(36px, 9999px, 17px, 0);
   }
   55% {
-    clip: rect(36px, 9999px, 174px, 0);
+    clip: rect(17px, 9999px, 71px, 0);
   }
   60% {
-    clip: rect(25px, 9999px, 155px, 0);
+    clip: rect(35px, 9999px, 72px, 0);
   }
   65% {
-    clip: rect(58px, 9999px, 48px, 0);
+    clip: rect(83px, 9999px, 9px, 0);
   }
   70% {
-    clip: rect(21px, 9999px, 25px, 0);
+    clip: rect(99px, 9999px, 57px, 0);
   }
   75% {
-    clip: rect(42px, 9999px, 116px, 0);
+    clip: rect(85px, 9999px, 73px, 0);
   }
   80% {
-    clip: rect(95px, 9999px, 174px, 0);
+    clip: rect(87px, 9999px, 42px, 0);
   }
   85% {
-    clip: rect(14px, 9999px, 191px, 0);
+    clip: rect(14px, 9999px, 139px, 0);
   }
   90% {
-    clip: rect(26px, 9999px, 111px, 0);
+    clip: rect(30px, 9999px, 36px, 0);
   }
   95% {
-    clip: rect(40px, 9999px, 102px, 0);
+    clip: rect(39px, 9999px, 180px, 0);
   }
   100% {
-    clip: rect(62px, 9999px, 27px, 0);
+    clip: rect(81px, 9999px, 17px, 0);
   }
 }
 
 @keyframes glitch-anim2 {
   0% {
-    clip: rect(42px, 9999px, 56px, 0);
+    clip: rect(60px, 9999px, 126px, 0);
   }
   5% {
-    clip: rect(24px, 9999px, 101px, 0);
+    clip: rect(61px, 9999px, 76px, 0);
   }
   10% {
-    clip: rect(92px, 9999px, 79px, 0);
+    clip: rect(53px, 9999px, 177px, 0);
   }
   15% {
-    clip: rect(46px, 9999px, 162px, 0);
+    clip: rect(91px, 9999px, 137px, 0);
   }
   20% {
-    clip: rect(9px, 9999px, 172px, 0);
+    clip: rect(57px, 9999px, 2px, 0);
   }
   25% {
-    clip: rect(64px, 9999px, 44px, 0);
+    clip: rect(25px, 9999px, 38px, 0);
   }
   30% {
-    clip: rect(93px, 9999px, 28px, 0);
+    clip: rect(72px, 9999px, 59px, 0);
   }
   35% {
-    clip: rect(15px, 9999px, 130px, 0);
+    clip: rect(93px, 9999px, 44px, 0);
   }
   40% {
-    clip: rect(74px, 9999px, 46px, 0);
+    clip: rect(92px, 9999px, 115px, 0);
   }
   45% {
-    clip: rect(89px, 9999px, 109px, 0);
+    clip: rect(23px, 9999px, 123px, 0);
   }
   50% {
-    clip: rect(61px, 9999px, 13px, 0);
+    clip: rect(36px, 9999px, 17px, 0);
   }
   55% {
-    clip: rect(36px, 9999px, 174px, 0);
+    clip: rect(17px, 9999px, 71px, 0);
   }
   60% {
-    clip: rect(25px, 9999px, 155px, 0);
+    clip: rect(35px, 9999px, 72px, 0);
   }
   65% {
-    clip: rect(58px, 9999px, 48px, 0);
+    clip: rect(83px, 9999px, 9px, 0);
   }
   70% {
-    clip: rect(21px, 9999px, 25px, 0);
+    clip: rect(99px, 9999px, 57px, 0);
   }
   75% {
-    clip: rect(42px, 9999px, 116px, 0);
+    clip: rect(85px, 9999px, 73px, 0);
   }
   80% {
-    clip: rect(95px, 9999px, 174px, 0);
+    clip: rect(87px, 9999px, 42px, 0);
   }
   85% {
-    clip: rect(14px, 9999px, 191px, 0);
+    clip: rect(14px, 9999px, 139px, 0);
   }
   90% {
-    clip: rect(26px, 9999px, 111px, 0);
+    clip: rect(30px, 9999px, 36px, 0);
   }
   95% {
-    clip: rect(40px, 9999px, 102px, 0);
+    clip: rect(39px, 9999px, 180px, 0);
   }
   100% {
-    clip: rect(62px, 9999px, 27px, 0);
+    clip: rect(81px, 9999px, 17px, 0);
   }
 }
 
@@ -5074,21 +5070,21 @@ header ul li:last-child {
   font-size: 60px;
   letter-spacing: 20px;
   white-space: nowrap;
-  color: #505050;
+  color: #191919;
   overflow: hidden;
   font-weight: bold;
 }
 
 .about .about-title-ch .about-title-one {
   width: 0;
-  border-right: 6px solid #505050;
+  border-right: 6px solid #191919;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
 
 .about .about-title-ch .about-title-two {
   width: 0;
-  border-right: 0px solid #505050;
+  border-right: 0px solid #191919;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -5110,10 +5106,10 @@ header ul li:last-child {
   font-size: 60px;
   letter-spacing: 20px;
   white-space: nowrap;
-  color: #505050;
+  color: #191919;
   overflow: hidden;
   font-family: 'Comfortaa', cursive;
-  border-right: 6px solid #505050;
+  border-right: 6px solid #191919;
   -webkit-animation: border-show 0.75s steps(1) infinite;
           animation: border-show 0.75s steps(1) infinite;
   -webkit-animation-fill-mode: forwards;
@@ -5129,7 +5125,7 @@ header ul li:last-child {
 }
 
 .about h2, .about p {
-  color: #505050;
+  color: #191919;
 }
 
 .about .about-line {
@@ -5209,43 +5205,43 @@ header ul li:last-child {
 
 @-webkit-keyframes border-show-one-ch {
   0% {
-    border-right: 6px solid #505050;
+    border-right: 6px solid #191919;
   }
   50% {
     border-right: 6px solid transparent;
   }
   100% {
-    border-right: 6px solid #505050;
+    border-right: 6px solid #191919;
   }
 }
 
 @keyframes border-show-one-ch {
   0% {
-    border-right: 6px solid #505050;
+    border-right: 6px solid #191919;
   }
   50% {
     border-right: 6px solid transparent;
   }
   100% {
-    border-right: 6px solid #505050;
+    border-right: 6px solid #191919;
   }
 }
 
 @-webkit-keyframes border-hide-one-ch {
   0% {
-    border-right: 6px solid #505050;
+    border-right: 6px solid #191919;
   }
   100% {
-    border-right: 0px solid #505050;
+    border-right: 0px solid #191919;
   }
 }
 
 @keyframes border-hide-one-ch {
   0% {
-    border-right: 6px solid #505050;
+    border-right: 6px solid #191919;
   }
   100% {
-    border-right: 0px solid #505050;
+    border-right: 0px solid #191919;
   }
 }
 
@@ -5284,73 +5280,73 @@ header ul li:last-child {
 
 @-webkit-keyframes border-bg-two {
   0% {
-    border-right: 0px solid #505050;
+    border-right: 0px solid #191919;
   }
   99% {
-    border-right: 0px solid #505050;
+    border-right: 0px solid #191919;
   }
   100% {
-    border-right: 6px solid #505050;
+    border-right: 6px solid #191919;
   }
 }
 
 @keyframes border-bg-two {
   0% {
-    border-right: 0px solid #505050;
+    border-right: 0px solid #191919;
   }
   99% {
-    border-right: 0px solid #505050;
+    border-right: 0px solid #191919;
   }
   100% {
-    border-right: 6px solid #505050;
+    border-right: 6px solid #191919;
   }
 }
 
 @-webkit-keyframes border-show-two {
   0% {
-    border-right: 6px solid #505050;
+    border-right: 6px solid #191919;
   }
   50% {
     border-right: 6px solid transparent;
   }
   100% {
-    border-right: 6px solid #505050;
+    border-right: 6px solid #191919;
   }
 }
 
 @keyframes border-show-two {
   0% {
-    border-right: 6px solid #505050;
+    border-right: 6px solid #191919;
   }
   50% {
     border-right: 6px solid transparent;
   }
   100% {
-    border-right: 6px solid #505050;
+    border-right: 6px solid #191919;
   }
 }
 
 @-webkit-keyframes border-show {
   0% {
-    border-right: 4px solid #505050;
+    border-right: 4px solid #191919;
   }
   50% {
     border-right: 4px solid transparent;
   }
   100% {
-    border-right: 4px solid #505050;
+    border-right: 4px solid #191919;
   }
 }
 
 @keyframes border-show {
   0% {
-    border-right: 4px solid #505050;
+    border-right: 4px solid #191919;
   }
   50% {
     border-right: 4px solid transparent;
   }
   100% {
-    border-right: 4px solid #505050;
+    border-right: 4px solid #191919;
   }
 }
 
@@ -5573,7 +5569,7 @@ header ul li:last-child {
   font-size: 18px;
   line-height: 27px;
   letter-spacing: 3px;
-  color: #505050;
+  color: #191919;
 }
 
 .expertise .expertise-area .expertise-area-img, .expertise .expertise-area h3, .expertise .expertise-area p {
@@ -5932,7 +5928,7 @@ header ul li:last-child {
 
 .works-content .works-content-list li a span {
   display: block;
-  color: #787878;
+  color: #262626;
 }
 
 .works-content .works-content-list li a span:first-child {
@@ -6104,7 +6100,7 @@ header ul li:last-child {
   margin-top: 7.5%;
   padding-bottom: 7.5%;
   line-height: 24px;
-  color: #505050;
+  color: #191919;
   border-bottom: 1px solid #c8c8c8;
 }
 
@@ -6580,40 +6576,40 @@ footer div p:last-child {
   }
   @-webkit-keyframes border-show-one-ch {
     0% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
     50% {
       border-right: 4px solid transparent;
     }
     100% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
   }
   @keyframes border-show-one-ch {
     0% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
     50% {
       border-right: 4px solid transparent;
     }
     100% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
   }
   @-webkit-keyframes border-hide-one-ch {
     0% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
     100% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
   }
   @keyframes border-hide-one-ch {
     0% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
     100% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
   }
   @-webkit-keyframes typing-show-two-ch {
@@ -6644,68 +6640,68 @@ footer div p:last-child {
   }
   @-webkit-keyframes border-bg-two {
     0% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
     99% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
     100% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
   }
   @keyframes border-bg-two {
     0% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
     99% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
     100% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
   }
   @-webkit-keyframes border-show-two {
     0% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
     50% {
       border-right: 4px solid transparent;
     }
     100% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
   }
   @keyframes border-show-two {
     0% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
     50% {
       border-right: 4px solid transparent;
     }
     100% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
   }
   @-webkit-keyframes border-show {
     0% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
     50% {
       border-right: 4px solid transparent;
     }
     100% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
   }
   @keyframes border-show {
     0% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
     50% {
       border-right: 4px solid transparent;
     }
     100% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
   }
   #expertise {
@@ -7307,40 +7303,40 @@ footer div p:last-child {
   }
   @-webkit-keyframes border-show-one-ch {
     0% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
     50% {
       border-right: 4px solid transparent;
     }
     100% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
   }
   @keyframes border-show-one-ch {
     0% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
     50% {
       border-right: 4px solid transparent;
     }
     100% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
   }
   @-webkit-keyframes border-hide-one-ch {
     0% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
     100% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
   }
   @keyframes border-hide-one-ch {
     0% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
     100% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
   }
   @-webkit-keyframes typing-show-two-ch {
@@ -7371,68 +7367,68 @@ footer div p:last-child {
   }
   @-webkit-keyframes border-bg-two {
     0% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
     99% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
     100% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
   }
   @keyframes border-bg-two {
     0% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
     99% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
     100% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
   }
   @-webkit-keyframes border-show-two {
     0% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
     50% {
       border-right: 4px solid transparent;
     }
     100% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
   }
   @keyframes border-show-two {
     0% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
     50% {
       border-right: 4px solid transparent;
     }
     100% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
   }
   @-webkit-keyframes border-show {
     0% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
     50% {
       border-right: 4px solid transparent;
     }
     100% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
   }
   @keyframes border-show {
     0% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
     50% {
       border-right: 4px solid transparent;
     }
     100% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
   }
   #expertise {
@@ -7676,40 +7672,40 @@ footer div p:last-child {
   }
   @-webkit-keyframes border-show-one-ch {
     0% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
     50% {
       border-right: 4px solid transparent;
     }
     100% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
   }
   @keyframes border-show-one-ch {
     0% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
     50% {
       border-right: 4px solid transparent;
     }
     100% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
   }
   @-webkit-keyframes border-hide-one-ch {
     0% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
     100% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
   }
   @keyframes border-hide-one-ch {
     0% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
     100% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
   }
   @-webkit-keyframes typing-show-two-ch {
@@ -7740,68 +7736,68 @@ footer div p:last-child {
   }
   @-webkit-keyframes border-bg-two {
     0% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
     99% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
     100% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
   }
   @keyframes border-bg-two {
     0% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
     99% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
     100% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
   }
   @-webkit-keyframes border-show-two {
     0% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
     50% {
       border-right: 4px solid transparent;
     }
     100% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
   }
   @keyframes border-show-two {
     0% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
     50% {
       border-right: 4px solid transparent;
     }
     100% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
   }
   @-webkit-keyframes border-show {
     0% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
     50% {
       border-right: 4px solid transparent;
     }
     100% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
   }
   @keyframes border-show {
     0% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
     50% {
       border-right: 4px solid transparent;
     }
     100% {
-      border-right: 4px solid #505050;
+      border-right: 4px solid #191919;
     }
   }
   .expertise .expertise-area .expertise-area-intro h3 {
@@ -7995,40 +7991,40 @@ footer div p:last-child {
   }
   @-webkit-keyframes border-show-one-ch {
     0% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
     50% {
       border-right: 3px solid transparent;
     }
     100% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
   }
   @keyframes border-show-one-ch {
     0% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
     50% {
       border-right: 3px solid transparent;
     }
     100% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
   }
   @-webkit-keyframes border-hide-one-ch {
     0% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
     100% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
   }
   @keyframes border-hide-one-ch {
     0% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
     100% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
   }
   @-webkit-keyframes typing-show-two-ch {
@@ -8059,68 +8055,68 @@ footer div p:last-child {
   }
   @-webkit-keyframes border-bg-two {
     0% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
     99% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
     100% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
   }
   @keyframes border-bg-two {
     0% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
     99% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
     100% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
   }
   @-webkit-keyframes border-show-two {
     0% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
     50% {
       border-right: 3px solid transparent;
     }
     100% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
   }
   @keyframes border-show-two {
     0% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
     50% {
       border-right: 3px solid transparent;
     }
     100% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
   }
   @-webkit-keyframes border-show {
     0% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
     50% {
       border-right: 3px solid transparent;
     }
     100% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
   }
   @keyframes border-show {
     0% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
     50% {
       border-right: 3px solid transparent;
     }
     100% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
   }
   #expertise .l-square, #expertise .r-square {
@@ -8327,40 +8323,40 @@ footer div p:last-child {
   }
   @-webkit-keyframes border-show-one-ch {
     0% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
     50% {
       border-right: 3px solid transparent;
     }
     100% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
   }
   @keyframes border-show-one-ch {
     0% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
     50% {
       border-right: 3px solid transparent;
     }
     100% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
   }
   @-webkit-keyframes border-hide-one-ch {
     0% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
     100% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
   }
   @keyframes border-hide-one-ch {
     0% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
     100% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
   }
   @-webkit-keyframes typing-show-two-ch {
@@ -8391,68 +8387,68 @@ footer div p:last-child {
   }
   @-webkit-keyframes border-bg-two {
     0% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
     99% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
     100% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
   }
   @keyframes border-bg-two {
     0% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
     99% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
     100% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
   }
   @-webkit-keyframes border-show-two {
     0% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
     50% {
       border-right: 3px solid transparent;
     }
     100% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
   }
   @keyframes border-show-two {
     0% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
     50% {
       border-right: 3px solid transparent;
     }
     100% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
   }
   @-webkit-keyframes border-show {
     0% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
     50% {
       border-right: 3px solid transparent;
     }
     100% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
   }
   @keyframes border-show {
     0% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
     50% {
       border-right: 3px solid transparent;
     }
     100% {
-      border-right: 3px solid #505050;
+      border-right: 3px solid #191919;
     }
   }
 }
@@ -8521,40 +8517,40 @@ footer div p:last-child {
   }
   @-webkit-keyframes border-show-one-ch {
     0% {
-      border-right: 2px solid #505050;
+      border-right: 2px solid #191919;
     }
     50% {
       border-right: 2px solid transparent;
     }
     100% {
-      border-right: 2px solid #505050;
+      border-right: 2px solid #191919;
     }
   }
   @keyframes border-show-one-ch {
     0% {
-      border-right: 2px solid #505050;
+      border-right: 2px solid #191919;
     }
     50% {
       border-right: 2px solid transparent;
     }
     100% {
-      border-right: 2px solid #505050;
+      border-right: 2px solid #191919;
     }
   }
   @-webkit-keyframes border-hide-one-ch {
     0% {
-      border-right: 2px solid #505050;
+      border-right: 2px solid #191919;
     }
     100% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
   }
   @keyframes border-hide-one-ch {
     0% {
-      border-right: 2px solid #505050;
+      border-right: 2px solid #191919;
     }
     100% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
   }
   @-webkit-keyframes typing-show-two-ch {
@@ -8585,68 +8581,68 @@ footer div p:last-child {
   }
   @-webkit-keyframes border-bg-two {
     0% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
     99% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
     100% {
-      border-right: 2px solid #505050;
+      border-right: 2px solid #191919;
     }
   }
   @keyframes border-bg-two {
     0% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
     99% {
-      border-right: 0px solid #505050;
+      border-right: 0px solid #191919;
     }
     100% {
-      border-right: 2px solid #505050;
+      border-right: 2px solid #191919;
     }
   }
   @-webkit-keyframes border-show-two {
     0% {
-      border-right: 2px solid #505050;
+      border-right: 2px solid #191919;
     }
     50% {
       border-right: 2px solid transparent;
     }
     100% {
-      border-right: 2px solid #505050;
+      border-right: 2px solid #191919;
     }
   }
   @keyframes border-show-two {
     0% {
-      border-right: 2px solid #505050;
+      border-right: 2px solid #191919;
     }
     50% {
       border-right: 2px solid transparent;
     }
     100% {
-      border-right: 2px solid #505050;
+      border-right: 2px solid #191919;
     }
   }
   @-webkit-keyframes border-show {
     0% {
-      border-right: 2px solid #505050;
+      border-right: 2px solid #191919;
     }
     50% {
       border-right: 2px solid transparent;
     }
     100% {
-      border-right: 2px solid #505050;
+      border-right: 2px solid #191919;
     }
   }
   @keyframes border-show {
     0% {
-      border-right: 2px solid #505050;
+      border-right: 2px solid #191919;
     }
     50% {
       border-right: 2px solid transparent;
     }
     100% {
-      border-right: 2px solid #505050;
+      border-right: 2px solid #191919;
     }
   }
   .expertise .expertise-area .expertise-area-intro h3 {

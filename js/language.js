@@ -38,7 +38,7 @@ $(document).ready(function () {
                 $('.vision').siblings('p').css({ 'font-family': 'Comfortaa, cursive', 'font-weight': 'normal', 'letter-spacing': '1px' });
             }
             if (Btn3Status == 'on' && Btn3Text == '點我') {
-                $('.web').siblings('h3').html('Web Designer');
+                $('.web').siblings('h3').html('Visual Designer');
                 $('.web').siblings('p').html('Airiti<span></span>');
                 $('.web').siblings('h3').css({ 'font-family': 'Comfortaa, cursive', 'font-weight': 'normal', 'letter-spacing': '2px' });
                 $('.web').siblings('p').css({ 'font-family': 'Comfortaa, cursive', 'font-weight': 'normal', 'letter-spacing': '1px' });
@@ -93,7 +93,7 @@ $(document).ready(function () {
                 $('.vision').siblings('p').css({ 'font-family': 'Noto Sans TC, sans-serif', 'font-weight': 'normal', 'letter-spacing': '3px' });
             }
             if (Btn3Status == 'on' && Btn3Text == 'Click This') {
-                $('.web').siblings('h3').html('網頁美編');
+                $('.web').siblings('h3').html('視覺設計');
                 $('.web').siblings('p').html('華藝數位<span></span>');
                 $('.web').siblings('h3').css({ 'font-family': 'Noto Sans TC, sans-serif', 'font-weight': 'bold', 'letter-spacing': '4px' });
                 $('.web').siblings('p').css({ 'font-family': 'Noto Sans TC, sans-serif', 'font-weight': 'normal', 'letter-spacing': '3px' });
@@ -153,14 +153,14 @@ $(document).ready(function () {
             $(this).data('status', 'on');
             $(this).siblings('h3').html('視覺設計');
             $(this).siblings('p').html('天盈國際<span></span>');
-            $(this).siblings('h3').css({ 'font-family': 'Noto Sans TC, sans-serif', 'font-weight': 'bold', 'letter-spacing': '4px', 'color': 'rgb(80, 80, 80)' });
+            $(this).siblings('h3').css({ 'font-family': 'Noto Sans TC, sans-serif', 'font-weight': 'bold', 'letter-spacing': '4px', 'color': 'rgb(25, 25, 25)' });
             $(this).siblings('p').css({ 'font-family': 'Noto Sans TC, sans-serif', 'font-weight': 'normal', 'letter-spacing': '3px' });
         }
         if (DataBtn == 'off' && DataBtnText == 'Click This') {
             $(this).data('status', 'on');
             $(this).siblings('h3').html('Visual Designer');
             $(this).siblings('p').html('Global Fans<span></span>');
-            $(this).siblings('h3').css({ 'font-family': 'Comfortaa, cursive', 'font-weight': 'normal', 'letter-spacing': '2px', 'color': 'rgb(80, 80, 80)' });
+            $(this).siblings('h3').css({ 'font-family': 'Comfortaa, cursive', 'font-weight': 'normal', 'letter-spacing': '2px', 'color': 'rgb(25, 25, 25)' });
             $(this).siblings('p').css({ 'font-family': 'Comfortaa, cursive', 'font-weight': 'normal', 'letter-spacing': '1px' });
         }
         if (WebBtn == 'on') {
@@ -185,16 +185,16 @@ $(document).ready(function () {
         $('.student-img > img:last-child').css({ 'opacity': '1', 'visibility': 'visible' });
         if (DataBtn == 'off' && DataBtnText == '點我') {
             $(this).data('status', 'on');
-            $(this).siblings('h3').html('網頁美編');
+            $(this).siblings('h3').html('視覺設計');
             $(this).siblings('p').html('華藝數位<span></span>');
-            $(this).siblings('h3').addClass('deep-gray').css({ 'font-family': 'Noto Sans TC, sans-serif', 'font-weight': 'bold', 'letter-spacing': '4px', 'color': 'rgb(80, 80, 80)' });
+            $(this).siblings('h3').addClass('deep-gray').css({ 'font-family': 'Noto Sans TC, sans-serif', 'font-weight': 'bold', 'letter-spacing': '4px', 'color': 'rgb(25, 25, 25)' });
             $(this).siblings('p').css({ 'font-family': 'Noto Sans TC, sans-serif', 'font-weight': 'normal', 'letter-spacing': '3px' });
         }
         if (DataBtn == 'off' && DataBtnText == 'Click This') {
             $(this).data('status', 'on');
-            $(this).siblings('h3').html('Web Designer');
+            $(this).siblings('h3').html('Visual Designer');
             $(this).siblings('p').html('Airiti<span></span>');
-            $(this).siblings('h3').addClass('deep-gray').css({ 'font-family': 'Comfortaa, cursive', 'font-weight': 'normal', 'letter-spacing': '2px', 'color': 'rgb(80, 80, 80)' });
+            $(this).siblings('h3').addClass('deep-gray').css({ 'font-family': 'Comfortaa, cursive', 'font-weight': 'normal', 'letter-spacing': '2px', 'color': 'rgb(25, 25, 25)' });
             $(this).siblings('p').css({ 'font-family': 'Comfortaa, cursive', 'font-weight': 'normal', 'letter-spacing': '1px' });
         }
         if (VisualBtn == 'on') {

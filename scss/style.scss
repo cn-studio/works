@@ -2,20 +2,19 @@
 @import "owl-carousel";
 @import "layout";
 @import "color";
-@import "fonts";
 @import "screen";
 @import "animation-plugin";
 @import "owl-custom";
 @import "expertise-animation";
 
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100;300;400;500;700;900&family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Sans+KR:wght@300;400;500;700;900&family=Noto+Sans+SC:wght@100;300;400;500;700;900&family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
 
 *{
-    font-family: 'Noto Sans TC','Microsoft JhengHei', serif, sans-serif, cursive, fantasy, monospace; 
-    color: $deep-gray;
+    font-family: 'Noto Sans','Noto Sans HK','Noto Sans JP','Noto Sans KR','Noto Sans SC','Noto Sans TC','Microsoft JhengHei', serif, sans-serif, cursive, fantasy, monospace; 
+    color: $black;
 }
 //全站選取效果
 ::selection{
@@ -497,20 +496,20 @@ $border-width:6px;
             font-size: $size;
             letter-spacing: $spacing;
             white-space: nowrap;
-            color: $deep-gray;
+            color: $black;
             overflow: hidden;
             font-weight: bold;
         }
         //第一段文字
         .about-title-one{
             width: 0;
-            border-right: $border-width solid $deep-gray;
+            border-right: $border-width solid $black;
             animation-fill-mode:forwards;
         }
         //第二段文字
         .about-title-two{
             width: 0;
-            border-right: 0px solid $deep-gray;
+            border-right: 0px solid $black;
             animation-fill-mode:forwards;
         }
     }
@@ -525,10 +524,10 @@ $border-width:6px;
             font-size: $size;
             letter-spacing: $spacing;
             white-space: nowrap;
-            color: $deep-gray;
+            color: $black;
             overflow: hidden;
             font-family: 'Comfortaa', cursive;
-            border-right: $border-width solid $deep-gray;
+            border-right: $border-width solid $black;
             animation: border-show 0.75s steps(1) infinite;
             animation-fill-mode:forwards;
         }
@@ -541,7 +540,7 @@ $border-width:6px;
         letter-spacing: 3px;
     }
     h2, p{
-        color:$deep-gray;
+        color:$black;
     }
     //線條動畫
     .about-line{
@@ -577,13 +576,13 @@ $border-width:6px;
     animation: border-show-one-ch 1s steps(1) infinite;
 }
 @keyframes border-show-one-ch {
-    0%{border-right: $border-width solid $deep-gray;}
+    0%{border-right: $border-width solid $black;}
     50%{border-right: $border-width solid transparent;}
-    100%{border-right: $border-width solid $deep-gray;}
+    100%{border-right: $border-width solid $black;}
 }
 @keyframes border-hide-one-ch {
-    0%{border-right: $border-width solid $deep-gray;}
-    100% {border-right: 0px solid $deep-gray;}
+    0%{border-right: $border-width solid $black;}
+    100% {border-right: 0px solid $black;}
 }
 //第二段文字動畫(中文)
 .typing-show-two-ch{
@@ -597,20 +596,20 @@ $border-width:6px;
 }
 //第二段文字游標動畫(中文)
 @keyframes border-bg-two{
-    0%{border-right: 0px solid $deep-gray;}
-    99%{border-right: 0px solid $deep-gray;}
-    100%{border-right: $border-width solid $deep-gray;}
+    0%{border-right: 0px solid $black;}
+    99%{border-right: 0px solid $black;}
+    100%{border-right: $border-width solid $black;}
 }
 @keyframes border-show-two {
-    0%{border-right: $border-width solid $deep-gray;}
+    0%{border-right: $border-width solid $black;}
     50%{border-right: $border-width solid transparent;}
-    100%{border-right: $border-width solid $deep-gray;}
+    100%{border-right: $border-width solid $black;}
 }
 //第二段文字游標動畫(英文)
 @keyframes border-show {
-    0%{border-right: $border-width/1.5 solid $deep-gray;}
+    0%{border-right: $border-width/1.5 solid $black;}
     50%{border-right: $border-width/1.5 solid transparent;}
-    100%{border-right: $border-width/1.5 solid $deep-gray;}
+    100%{border-right: $border-width/1.5 solid $black;}
 }
 //關於我線段動畫
 @keyframes about-l-effect{
@@ -738,7 +737,7 @@ $expertise-time:2.5s;
                 font-size: 18px;
                 line-height: 27px;
                 letter-spacing: 3px;
-                color: $deep-gray;
+                color: $black;
             }
         }
         .expertise-area-img, h3, p{
@@ -988,7 +987,7 @@ $expertise-time:2.5s;
                 position: relative;
                 span{
                     display: block;
-                    color: $deep-gray*1.5;
+                    color: $black*1.5;
                 }
                 span:first-child{
                     letter-spacing: 2px;
@@ -1109,7 +1108,7 @@ $expertise-time:2.5s;
             @include m-t(7.5%);
             @include p-b(7.5%);
             line-height: 24px;
-            color: $deep-gray;
+            color: $black;
             border-bottom: 1px solid $light-gray;
             span{
                 @include p-y(4px, 4px);
@@ -1423,13 +1422,13 @@ footer{
         100%{width: 0; opacity: 1; visibility: visible;}
     }
     @keyframes border-show-one-ch {
-        0%{border-right: $border-width solid $deep-gray;}
+        0%{border-right: $border-width solid $black;}
         50%{border-right: $border-width solid transparent;}
-        100%{border-right: $border-width solid $deep-gray;}
+        100%{border-right: $border-width solid $black;}
     }
     @keyframes border-hide-one-ch {
-        0%{border-right: $border-width solid $deep-gray;}
-        100% {border-right: 0px solid $deep-gray;}
+        0%{border-right: $border-width solid $black;}
+        100% {border-right: 0px solid $black;}
     }
     @keyframes typing-show-two-ch {
         0%{@include p-r(0px);width:0;}
@@ -1437,19 +1436,19 @@ footer{
         100%{@include p-r(5px);width:($size+$spacing)*$about-title-two}
     }
     @keyframes border-bg-two{
-        0%{border-right: 0px solid $deep-gray;}
-        99%{border-right: 0px solid $deep-gray;}
-        100%{border-right: 4px solid $deep-gray;}
+        0%{border-right: 0px solid $black;}
+        99%{border-right: 0px solid $black;}
+        100%{border-right: 4px solid $black;}
     }
     @keyframes border-show-two {
-        0%{border-right: $border-width solid $deep-gray;}
+        0%{border-right: $border-width solid $black;}
         50%{border-right: $border-width solid transparent;}
-        100%{border-right: $border-width solid $deep-gray;}
+        100%{border-right: $border-width solid $black;}
     }
     @keyframes border-show {
-        0%{border-right: 4px solid $deep-gray;}
+        0%{border-right: 4px solid $black;}
         50%{border-right: 4px solid transparent;}
-        100%{border-right: 4px solid $deep-gray;}
+        100%{border-right: 4px solid $black;}
     }
     #expertise{
         overflow: hidden;
@@ -1981,13 +1980,13 @@ footer{
             100%{width: 0; opacity: 1; visibility: visible;}
         }
         @keyframes border-show-one-ch {
-            0%{border-right: $border-width solid $deep-gray;}
+            0%{border-right: $border-width solid $black;}
             50%{border-right: $border-width solid transparent;}
-            100%{border-right: $border-width solid $deep-gray;}
+            100%{border-right: $border-width solid $black;}
         }
         @keyframes border-hide-one-ch {
-            0%{border-right: $border-width solid $deep-gray;}
-            100% {border-right: 0px solid $deep-gray;}
+            0%{border-right: $border-width solid $black;}
+            100% {border-right: 0px solid $black;}
         }
         @keyframes typing-show-two-ch {
             0%{@include p-r(0px);width:0;}
@@ -1995,19 +1994,19 @@ footer{
             100%{@include p-r(7.5px);width:($size+$spacing)*$about-title-two}
         }
         @keyframes border-bg-two{
-            0%{border-right: 0px solid $deep-gray;}
-            99%{border-right: 0px solid $deep-gray;}
-            100%{border-right: $border-width solid $deep-gray;}
+            0%{border-right: 0px solid $black;}
+            99%{border-right: 0px solid $black;}
+            100%{border-right: $border-width solid $black;}
         }
         @keyframes border-show-two {
-            0%{border-right: $border-width solid $deep-gray;}
+            0%{border-right: $border-width solid $black;}
             50%{border-right: $border-width solid transparent;}
-            100%{border-right: $border-width solid $deep-gray;}
+            100%{border-right: $border-width solid $black;}
         }
         @keyframes border-show {
-            0%{border-right: $border-width solid $deep-gray;}
+            0%{border-right: $border-width solid $black;}
             50%{border-right: $border-width solid transparent;}
-            100%{border-right: $border-width solid $deep-gray;}
+            100%{border-right: $border-width solid $black;}
         }
     }
     #expertise{
@@ -2212,13 +2211,13 @@ footer{
             100%{width: 0; opacity: 1; visibility: visible;}
         }
         @keyframes border-show-one-ch {
-            0%{border-right: $border-width solid $deep-gray;}
+            0%{border-right: $border-width solid $black;}
             50%{border-right: $border-width solid transparent;}
-            100%{border-right: $border-width solid $deep-gray;}
+            100%{border-right: $border-width solid $black;}
         }
         @keyframes border-hide-one-ch {
-            0%{border-right: $border-width solid $deep-gray;}
-            100% {border-right: 0px solid $deep-gray;}
+            0%{border-right: $border-width solid $black;}
+            100% {border-right: 0px solid $black;}
         }
         @keyframes typing-show-two-ch {
             0%{@include p-r(0px);width:0;}
@@ -2226,19 +2225,19 @@ footer{
             100%{@include p-r(5px);width:($size+$spacing)*$about-title-two}
         }
         @keyframes border-bg-two{
-            0%{border-right: 0px solid $deep-gray;}
-            99%{border-right: 0px solid $deep-gray;}
-            100%{border-right: $border-width solid $deep-gray;}
+            0%{border-right: 0px solid $black;}
+            99%{border-right: 0px solid $black;}
+            100%{border-right: $border-width solid $black;}
         }
         @keyframes border-show-two {
-            0%{border-right: $border-width solid $deep-gray;}
+            0%{border-right: $border-width solid $black;}
             50%{border-right: $border-width solid transparent;}
-            100%{border-right: $border-width solid $deep-gray;}
+            100%{border-right: $border-width solid $black;}
         }
         @keyframes border-show {
-            0%{border-right: $border-width solid $deep-gray;}
+            0%{border-right: $border-width solid $black;}
             50%{border-right: $border-width solid transparent;}
-            100%{border-right: $border-width solid $deep-gray;}
+            100%{border-right: $border-width solid $black;}
         }
     }
     .expertise{
@@ -2397,13 +2396,13 @@ footer{
             100%{width: 0; opacity: 1; visibility: visible;}
         }
         @keyframes border-show-one-ch {
-            0%{border-right: $border-width solid $deep-gray;}
+            0%{border-right: $border-width solid $black;}
             50%{border-right: $border-width solid transparent;}
-            100%{border-right: $border-width solid $deep-gray;}
+            100%{border-right: $border-width solid $black;}
         }
         @keyframes border-hide-one-ch {
-            0%{border-right: $border-width solid $deep-gray;}
-            100% {border-right: 0px solid $deep-gray;}
+            0%{border-right: $border-width solid $black;}
+            100% {border-right: 0px solid $black;}
         }
         @keyframes typing-show-two-ch {
             0%{@include p-r(0px);width:0;}
@@ -2411,19 +2410,19 @@ footer{
             100%{@include p-r(5px);width:($size+$spacing)*$about-title-two}
         }
         @keyframes border-bg-two{
-            0%{border-right: 0px solid $deep-gray;}
-            99%{border-right: 0px solid $deep-gray;}
-            100%{border-right: $border-width solid $deep-gray;}
+            0%{border-right: 0px solid $black;}
+            99%{border-right: 0px solid $black;}
+            100%{border-right: $border-width solid $black;}
         }
         @keyframes border-show-two {
-            0%{border-right: $border-width solid $deep-gray;}
+            0%{border-right: $border-width solid $black;}
             50%{border-right: $border-width solid transparent;}
-            100%{border-right: $border-width solid $deep-gray;}
+            100%{border-right: $border-width solid $black;}
         }
         @keyframes border-show {
-            0%{border-right: $border-width solid $deep-gray;}
+            0%{border-right: $border-width solid $black;}
             50%{border-right: $border-width solid transparent;}
-            100%{border-right: $border-width solid $deep-gray;}
+            100%{border-right: $border-width solid $black;}
         }
     }
     #expertise{
@@ -2580,13 +2579,13 @@ footer{
             100%{width: 0; opacity: 1; visibility: visible;}
         }
         @keyframes border-show-one-ch {
-            0%{border-right: $border-width solid $deep-gray;}
+            0%{border-right: $border-width solid $black;}
             50%{border-right: $border-width solid transparent;}
-            100%{border-right: $border-width solid $deep-gray;}
+            100%{border-right: $border-width solid $black;}
         }
         @keyframes border-hide-one-ch {
-            0%{border-right: $border-width solid $deep-gray;}
-            100% {border-right: 0px solid $deep-gray;}
+            0%{border-right: $border-width solid $black;}
+            100% {border-right: 0px solid $black;}
         }
         @keyframes typing-show-two-ch {
             0%{@include p-r(0px);width:0;}
@@ -2594,19 +2593,19 @@ footer{
             100%{@include p-r(5px);width:($size+$spacing)*$about-title-two}
         }
         @keyframes border-bg-two{
-            0%{border-right: 0px solid $deep-gray;}
-            99%{border-right: 0px solid $deep-gray;}
-            100%{border-right: $border-width solid $deep-gray;}
+            0%{border-right: 0px solid $black;}
+            99%{border-right: 0px solid $black;}
+            100%{border-right: $border-width solid $black;}
         }
         @keyframes border-show-two {
-            0%{border-right: $border-width solid $deep-gray;}
+            0%{border-right: $border-width solid $black;}
             50%{border-right: $border-width solid transparent;}
-            100%{border-right: $border-width solid $deep-gray;}
+            100%{border-right: $border-width solid $black;}
         }
         @keyframes border-show {
-            0%{border-right: $border-width solid $deep-gray;}
+            0%{border-right: $border-width solid $black;}
             50%{border-right: $border-width solid transparent;}
-            100%{border-right: $border-width solid $deep-gray;}
+            100%{border-right: $border-width solid $black;}
         }
     }
 }
@@ -2655,13 +2654,13 @@ footer{
             100%{width: 0; opacity: 1; visibility: visible;}
             }
         @keyframes border-show-one-ch {
-            0%{border-right: $border-width solid $deep-gray;}
+            0%{border-right: $border-width solid $black;}
             50%{border-right: $border-width solid transparent;}
-            100%{border-right: $border-width solid $deep-gray;}
+            100%{border-right: $border-width solid $black;}
             }
         @keyframes border-hide-one-ch {
-            0%{border-right: $border-width solid $deep-gray;}
-            100% {border-right: 0px solid $deep-gray;}
+            0%{border-right: $border-width solid $black;}
+            100% {border-right: 0px solid $black;}
             }
         @keyframes typing-show-two-ch {
             0%{@include p-r(0px);width:0;}
@@ -2669,19 +2668,19 @@ footer{
             100%{@include p-r(5px);width:($size+$spacing)*$about-title-two}
             }
         @keyframes border-bg-two{
-            0%{border-right: 0px solid $deep-gray;}
-            99%{border-right: 0px solid $deep-gray;}
-            100%{border-right: $border-width solid $deep-gray;}
+            0%{border-right: 0px solid $black;}
+            99%{border-right: 0px solid $black;}
+            100%{border-right: $border-width solid $black;}
             }
         @keyframes border-show-two {
-            0%{border-right: $border-width solid $deep-gray;}
+            0%{border-right: $border-width solid $black;}
             50%{border-right: $border-width solid transparent;}
-            100%{border-right: $border-width solid $deep-gray;}
+            100%{border-right: $border-width solid $black;}
             }
         @keyframes border-show {
-            0%{border-right: $border-width solid $deep-gray;}
+            0%{border-right: $border-width solid $black;}
             50%{border-right: $border-width solid transparent;}
-            100%{border-right: $border-width solid $deep-gray;}
+            100%{border-right: $border-width solid $black;}
             }
         }
     .expertise{
