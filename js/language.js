@@ -1,6 +1,6 @@
 $(document).ready(function () {
     //多語系
-    $('.lan-btn').click(function (e) {
+    /*$('.lan-btn').click(function (e) {
         var WindowScrollTop = $(window).scrollTop();
         var AboutTop = $('.about').offset().top;
         var LanData = $('.lan-btn').data('name');
@@ -57,7 +57,7 @@ $(document).ready(function () {
             $('.mobile-alert').children('p').css({ 'font-family': 'Comfortaa, cursive', 'letter-spacing': '0.1px' });
             $('.name').css({ 'font-family': 'Comfortaa, cursive', 'letter-spacing': '0.25px;' });
         } else {
-            $('.lan-btn').text('About/en').data('name', 'chinese');
+            //$('.lan-btn').text('About/en').data('name', 'chinese');
             $('.menu > .lan-btn').css('width', '120');
             $('.about-title-en').css('display', 'none');
             $('.about-title-ch').css('display', 'block');
@@ -112,7 +112,7 @@ $(document).ready(function () {
             $('.name').css({ 'font-family': 'Noto Sans TC, sans-serif', 'letter-spacing': '3px' });
         }
         return false;
-    });
+    });*/
 
     $('.student').click(function (e) {
         var VisionBtn = $('.vision').data('status');
